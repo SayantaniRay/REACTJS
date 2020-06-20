@@ -1,0 +1,28 @@
+.container{
+    background-color: #382222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.FormvalidByRegex {
+    background-color: #4285F4;
+    padding: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.FormvalidByRegex p {
+    display: flex;
+}
+
+.FormvalidByRegex input {
+    padding: 5px;
+    flex-grow: 1;
+    outline: none;
+}
